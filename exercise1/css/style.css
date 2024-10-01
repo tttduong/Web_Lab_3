@@ -1,0 +1,18 @@
+.title .logo img{
+    width: 10%;
+}
+.title .title-name{
+    color: green;
+}
+.content .item{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.content .section{
+    
+    margin: 10px 0; 
+}
+.content h2{
+    color: green; 
+}

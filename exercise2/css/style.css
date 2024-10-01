@@ -1,0 +1,26 @@
+/* .navbar .nav-item .nav-link:active{
+    color: blue;
+} */
+.card img{
+    max-width: 100%; 
+    height: auto; 
+}
+.card h5{
+    font-size: 20px;
+    justify-content: center;
+}
+hr{
+    width: 40%;
+}
+
+.card{
+    display: block;
+    margin: 0 auto;
+}
+.content a:hover{
+    cursor: pointer;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
