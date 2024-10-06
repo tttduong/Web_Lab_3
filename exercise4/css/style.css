@@ -1,8 +1,35 @@
-.main .row .experience tr:last-child{
+/* .main .row .experience tr:last-child{
     border-bottom: none;
-}
+} */
 .main .row .education ul {
     list-style-type: '-';
     list-style-position: inside;
  
+}
+.row .reviews .card{
+    border-radius: 50px;
+
+}
+.bg-gray-300{
+    background-color: #dee2e6;
+}
+.h1, .h2, .footer{
+    font-family: "Nanum Pen Script", cursive;
+}
+.h1 {
+    font-size: 4rem;
+}
+img{
+    object-fit: cover;
+}
+@media (min-width: 768px) {
+    .bg-md-white{
+        background-color: white;
+    }
+    
+}
+@media (max-width: 768px){
+    .h1 {
+        font-size: 2rem;
+    }
 }
