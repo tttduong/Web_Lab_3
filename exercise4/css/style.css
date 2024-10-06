@@ -1,0 +1,8 @@
+.main .row .experience tr:last-child{
+    border-bottom: none;
+}
+.main .row .education ul {
+    list-style-type: '-';
+    list-style-position: inside;
+ 
+}
