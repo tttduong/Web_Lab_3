@@ -1,7 +1,7 @@
 
 body{
     margin:0;
-    padding: 10px;
+    padding: 0px;
 }
 /* header */
 .header{
@@ -77,6 +77,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+    
 }
 .main .content h2{
     font-family: "Nanum Pen Script", cursive;
@@ -86,10 +88,10 @@ body{
     font-family: "Nanum Pen Script", cursive;
     font-size: 30px;
 }
+
 .main .content .projects{
     display: block;
     width: 20%;
-    
     box-sizing: border-box;
     border-right: 1px solid black;
 }
@@ -99,8 +101,8 @@ body{
     width: 100%;
     border-bottom: 1px solid black;
     border-right: none;
- 
     padding-left: 30px;
+    
 }
 .main .content .projects p{
     font-size: 24px;
@@ -228,7 +230,8 @@ body{
 /*narrow scene*/
 @media (max-width: 768px) {
     body{
-        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     /* header */
     .header .nav {
