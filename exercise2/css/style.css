@@ -1,6 +1,6 @@
-/* .navbar .nav-item .nav-link:active{
-    color: blue;
-} */
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: black;
+}
 .card img{
     max-width: 100%; 
     height: auto; 
